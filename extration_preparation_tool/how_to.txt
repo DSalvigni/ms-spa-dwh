@@ -1,0 +1,36 @@
+1) Create the folder C:\Programming_Projects\SPA_new and under that copy "extraction_preparation_tool" folder.
+2) Create a folder called "extraction_ww_MM_YYYY" where ww remains as it is if you to not have the week. ISO week is required. In case montly extraction the standard format must be ex ""extraction_ww_08_2017"
+3) Install the package SED for windows (http://gnuwin32.sourceforge.net/packages/sed.htm)
+4) Install the package F.A.R.T. (https://sourceforge.net/projects/fart-it/)
+5) Set up fart and sed to be launched from any prompt (insert in the PATH of windows their location, or simply copy with admin rights in the C:\Windows\System32 the exec fart.exe and set up SED.exe in thew PATH variable
+6) Change in each PY file the variable "extraction_timeframe" and setup it with the current extraction
+7) from C:\Programming_Projects\SPA_new\extration_preparation_tool launch "00_harmonize_file_names" and then "python 01_prepare_files.py"
+->This will create from original path folder a collection of unique files in a dedicated folder (temporary saved)
+8)from C:\Programming_Projects\SPA_new\extration_preparation_tool launch "python 02_append_txt.py"
+->this will append in efficent way all the txt file (Type/SED operation) removing the header from the appended files and creating a unique file per context (ex PART.txt will be the collection of all the systems in aunique file). During this pahse F.A.R.T. will armonyze the return carriage value from CLRF to RF only for all the files.
+9)from C:\Programming_Projects\SPA_new\extration_preparation_tool launch "python 03_move_final_txt.py"
+->This option will move in a dedicated folder the results (../SPA_SQL_tbls_ww_MM_YYYY) where the final files are saved and ready to go on hadoop/HIVE, Caravelle or SQL Server
+10) cleaned the content of C:\Programming_Projects\SPA_new\extraction_ww_mm_2017_ready (mm current inserted month)
+10) Final extraxtion will remain saved in C:\Programming_Projects\SPA_new\SPA_SQL_tbls_ww_mm_2017 (mm current inserted month)
+
+
+
+---From here not anymore valid but saved for information----------------------------------------------------------------------------------
+---this part only if we want to implement the automatic upload from sql studio-------------------------------------------------------
+---folder TMP_SP_SQL_SSIS_packag_folder moved in C:\Programming_Projects\MSSQL_ETL_insert -------------------------------
+10) Copy all the files .txt in the standard C:\Programming_Projects\SPA_new\TMP_SP_SQL_SSIS_packag_folder folder: here we copy the final result which will be used from the SSIS package already set up, under C:\Programming_Projects\SPA_new\SSMS_packages\.
+
+11) Once the upload is completed, delete everything from \TMP_SP_SQL_SSIS_packag_folder and the copy of extraxtion will remain saved in ../SPA_SQL_tbls_ww_MM_YYYY
+--------------------------------------------------------------------------------------------------------
+---------------from here ok----------------------------------------------------------------------------
+
+
+NOTE: The following folder must alway remain:
+- extration_preparation_tool
+- library_software
+- temp_trasformation_file
+
+The following folder will be created by script:
+- extraction_ww_MM_YYYY_ready
+- SPA_SQL_tbls_ww_MM_YYYY
+Based on the "extraction_timeframe" variable expressed in the point 6. The folder will be replicated for each future extraction
