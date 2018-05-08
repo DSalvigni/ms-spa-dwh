@@ -1,0 +1,142 @@
+Extraction BCP Code:
+
+CFT_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_CFT_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_CFT_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+CFT_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_CFT_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_CFT_Item.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+
+CO_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_CO_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_CO_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+CO_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_CO_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_CO_Item.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_CostCenter
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_CostCenter]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_MD_CostCenter.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+
+MD_CurrencyMap
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_CurrencyMap]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_MD_CurrencyMap.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+GM_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_GM_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_GM_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+
+GM_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_GM_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_GM_Item.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+INV_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_INV_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_INV_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+1_0_INV_Item_1.11_ETL
+bcp "USE SPA_SQL exec [dbo].[1_0_EXTRACTION_INV_Item_1.11_ETL]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_INV_Item_01.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+1_0_INV_Item_1.12_ETL
+bcp "USE SPA_SQL exec [dbo].[1_0_EXTRACTION_INV_Item_1.12_ETL]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_INV_Item_02.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+INV_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_INV_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_INV_Item_03.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Account
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Account]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_MD_Account.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Commodity
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Commodity]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_MD_Commodity.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Network
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Network]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_MD_Network.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+md_part
+bcp "USE SPA_SQL EXEC [dbo].[EXTRACTION_MD_Part]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_Part.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+md_PaymentTerm
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_PaymentTerm]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PaymentTerm.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Plant]
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Plant]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_Plant.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_ProfitCenter
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_ProfitCenter]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_ProfitCenter.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Project
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Project]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_Project.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_PurchasingGroup
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_PurchasingGroup]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PurchasingGroup.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Supplier_LFA1
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Supplier_LFA1]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_Supplier_LFA1.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Supplier_LFB1
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Supplier_LFB1]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_Supplier_LFB1.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_Supplier_LFM1
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_Supplier_LFM1]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_Supplier_LFM1.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_UOM
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_UOM]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_UOMM.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+MD_User
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_MD_User]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_User.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_Accounting
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_Accounting]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_Accounting.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_Confirmation
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_Confirmation]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_Confirmation.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_History
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_History]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_History.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_Item.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_Schedule
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_Schedule]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_Schedule.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_InfRecGE
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_InfRecGE]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_InfRecGE.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PO_InfRecPOOrg
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PO_InfRecPOOrg]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PO_InfRecPOOrg.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PR
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PR]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PR.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+PR_Accounting
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_PR_Accounting]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_PR_Accounting.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+ProdOrder_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_ProdOrder_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_ProdOrder_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+ProdOrder_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_ProdOrder_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_ProdOrder_Item.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+QInfRef
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_QInfRec]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_QInfRef.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+QN_Action
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_QN_Action]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_QN_Action.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+QN_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_QN_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_QN_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+QN_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_QN_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_QN_Item.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+QN_Measure
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_QN_Measure]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_QN_Measure.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+SO_Header
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_SO_Header]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_SO_Header.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+SO_Item
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_SO_Item]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_SO_Item.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
+
+Savings
+bcp "USE SPA_SQL exec [dbo].[EXTRACTION_Savings]" queryout C:\Programming_Projects\SPA_new\FINAL_DATA_UP_TO_March\U40_Savings.txt -t"|" -c -S SMNOTN618q.dsmain.ds.corp\INSTPCH1,51433 -T
