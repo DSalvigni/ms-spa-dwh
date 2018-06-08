@@ -7,5 +7,5 @@
 - Creation of fast index for join based on hash
 - Fast BCP export
 
-@Thanks for the support of one collaborator (Pedro J.M., my student :), who helped me to complete writing some of the TSQL procedure for de-duplication)
+@Thanks for the support of one collaborator (Pedro J.M., my student :), who helped me to complete writing some of the TSQL procedures for de-duplication)
 
