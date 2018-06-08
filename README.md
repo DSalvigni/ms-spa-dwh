@@ -1,4 +1,4 @@
-# SPA SAP Project ETL: RDBMS model for SAP Procurement modules to import/export data comning from SAP
+SPA SAP Project ETL: RDBMS model for SAP Procurement modules to import/export data comning from SAP
 - Creation of ETL Area 
 - Creation of consolidated production data Area
 - ETL for data-typing/Casting (Date/String/Number)
